@@ -4,57 +4,60 @@ import mongo from '../assets/images/mongo.png'
 import react from '../assets/images/react.png'
 import tailwind from '../assets/images/tailwind.png'
 import javascript from '../assets/images/javascript.png'
+import css from '../assets/images/css.png'
 
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Project 1',
-      image: {html},
-      demoLink: 'https://project1-demo.com',
-      repoLink: 'https://github.com/yourusername/project1',
+      title: 'Break Sweat',
+      image: html,
+      demoLink: 'https://intense-everglades-85455.herokuapp.com/',
+      repoLink: 'https://github.com/decourtney/break-sweat',
     },
     {
-        title: 'Project 2',
-        image: {mongo},
-        demoLink: 'https://project2-demo.com',
-        repoLink: 'https://github.com/yourusername/project2',
+        title: 'Socialite API',
+        image: mongo,
+        demoLink: 'https://drive.google.com/file/d/19MMLR398k_y-Iw2uH27DJHgH0WAHgLcD/view',
+        repoLink: 'https://github.com/ash12486/SocialiteAPI',
       },
       {
-        title: 'Project 3',
-        image: {react},
-        demoLink: 'https://project3-demo.com',
+        title: 'RealityCheck',
+        image: react,
+        demoLink: 'https://sleepy-brushlands-04075.herokuapp.com/',
         repoLink: 'https://github.com/yourusername/project3',
       },
       {
-        title: 'Project 4',
-        image: {tailwind},
-        demoLink: 'https://project4-demo.com',
-        repoLink: 'https://github.com/yourusername/project4',
+        title: 'Not Another Movie Generator',
+        image: tailwind,
+        demoLink: 'https://chriseligirard.github.io/movienightGame/',
+        repoLink: 'https://github.com/ChrisEliGirard/movienightGame',
       },
       {
-        title: 'Project 5',
-        image: {javascript},
-        demoLink: 'https://project5-demo.com',
-        repoLink: 'https://github.com/yourusername/project5',
+        title: 'javascriptQuiz',
+        image: javascript,
+        demoLink: 'https://ash12486.github.io/javascriptQuiz/',
+        repoLink: 'https://github.com/ash12486/javascriptQuiz',
       },
       {
-        title: 'Project 6',
-        image: {html},
-        demoLink: 'https://project6-demo.com',
-        repoLink: 'https://github.com/yourusername/project6',
+        title: 'employeeShowcase',
+        image: css,
+        demoLink: 'https://ash12486.github.io/employeeShowcase/',
+        repoLink: 'https://github.com/ash12486/employeeShowcase',
       },
   ];
 
   return (
-    <section className="container mx-auto p-20">
+    <div className='bg-white'>
+    <section className= "container mx-auto p-[100px]">
       <h2 className="text-xl font-bold mb-4">Portfolio</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project, index) => (
-          <div key={index} className="rounded border border-gray-300 p-4">
+          <div key={index} className="project-card-container">
+          <div className="rounded border border-gray-300 p-4 project-card">
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-48 object-cover mb-4 rounded"
+              className="w-full object-contain mb-4 rounded"
             />
             <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
             <a
@@ -75,9 +78,11 @@ const Portfolio = () => {
               GitHub
             </a>
           </div>
+          </div>
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

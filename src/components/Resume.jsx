@@ -7,15 +7,16 @@ const Resume = () => {
     'JavaScript',
     'React',
     'Node.js',
-    // Add more proficiencies as needed
+    'MongoDB',
+    'SQL',
   ];
 
   return (
-    <section className="container mx-auto p-4">
+    <section className="h-screen container mx-auto p-24">
       <h2 className="text-xl font-bold mb-4">Resume</h2>
       <div className="mb-4">
         <a
-          href="/path/to/your/resume.pdf"
+          href="https://drive.google.com/file/d/1R6PtrEv52_-BrfVzr3XzQ9P3n3lRbq_p/view?usp=share_link"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:text-blue-600"
