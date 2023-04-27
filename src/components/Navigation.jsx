@@ -14,9 +14,9 @@ const Navigation = () => {
         <ul className="hidden md:flex">
           <li>
             <Link
-              to="/"
+              to="/aboutme"
               className={`${
-                location.pathname === "/" ? "text-yellow-500" : "text-white"
+                location.pathname === "/AboutMe" ? "text-yellow-500" : "text-white"
               }`}
             >
               About Me

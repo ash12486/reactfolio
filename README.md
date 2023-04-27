@@ -26,6 +26,13 @@ This project was built using the following technologies:
 - Contact form with form validation
 - Smooth scrolling to different sections of the website
 
+## Demo
+Deployed website: https://ash12486.github.io/reactfolio/
+
+![Landing Page](./src/assets/images/Screenshot.png)
+![Portfolio](./src/assets/images/Portfolio.png)
+![Contact](./src/assets/images/Contact.png)
+
 ## Future Improvements
 Here are some ideas for future improvements to this project:
 
