@@ -6,6 +6,7 @@ const Navigation = () => {
   const location = useLocation();
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  const handleMobileClick = () => setNav(false); // Add this line
 
   return (
     <>
@@ -76,7 +77,8 @@ const Navigation = () => {
       >
         <li className="py-6 text-4xl">
           <Link
-            to="/"
+            to="/aboutme"
+            onClick={handleMobileClick} // Add this line
             className={`${
               location.pathname === "/" ? "text-yellow-500" : "text-white"
             }`}
@@ -87,6 +89,7 @@ const Navigation = () => {
         <li className="py-6 text-4xl">
           <Link
             to="/portfolio"
+            onClick={handleMobileClick} // Add this line
             className={`${
               location.pathname === "/portfolio"
                 ? "text-yellow-500"
@@ -99,6 +102,7 @@ const Navigation = () => {
         <li className="py-6 text-4xl">
           <Link
             to="/contact"
+            onClick={handleMobileClick} // Add this line
             className={`${
               location.pathname === "/contact"
                 ? "text-yellow-500"
@@ -111,6 +115,7 @@ const Navigation = () => {
         <li className="py-6 text-4xl">
           <Link
             to="/resume"
+            onClick={handleMobileClick} // Add this line
             className={`${
               location.pathname === "/resume" ? "text-yellow-500" : "text-white"
             }`}
@@ -122,5 +127,6 @@ const Navigation = () => {
     </>
   );
 };
+
 
 export default Navigation;
