@@ -32,13 +32,13 @@ const Contact = () => {
           </p>
         </div>
         <input
-          className="bg-gray-800 p-2"
+          className="bg-gray-800 text-white p-2"
           type="text"
           name="name"
           placeholder="Name"
         />
         <input
-          className={`w-full p-2 border bg-gray-800 ${
+          className={`w-full p-2 border text-white bg-gray-800 ${
             emailError ? "border-red-500" : "border-gray-300"
           } rounded`}
           type="email"
@@ -48,7 +48,7 @@ const Contact = () => {
           placeholder="Email"
         />
         <textarea
-          className="bg-gray-800 p-2"
+          className="bg-gray-800 text-white p-2"
           name="message"
           rows="10"
           placeholder="Message"
