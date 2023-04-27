@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ash12486-reactfolio/static/css/main.5cf6d4df.css",
+    "main.js": "/ash12486-reactfolio/static/js/main.ad37ff71.js",
+    "static/media/AshleeGreenJacket.png": "/ash12486-reactfolio/static/media/AshleeGreenJacket.04658596ec59b74a5b36.png",
+    "static/media/react.png": "/ash12486-reactfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/mongo.png": "/ash12486-reactfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/Logo2.png": "/ash12486-reactfolio/static/media/Logo2.ccf7cdb6bd1ac2917587.png",
+    "static/media/html.png": "/ash12486-reactfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/ash12486-reactfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/ash12486-reactfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/ash12486-reactfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/ash12486-reactfolio/index.html",
+    "main.5cf6d4df.css.map": "/ash12486-reactfolio/static/css/main.5cf6d4df.css.map",
+    "main.ad37ff71.js.map": "/ash12486-reactfolio/static/js/main.ad37ff71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cf6d4df.css",
+    "static/js/main.ad37ff71.js"
+  ]
+}
