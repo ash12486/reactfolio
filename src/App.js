@@ -12,6 +12,7 @@ function App() {
   return (
     <Router>
         <Header />
+        <AboutMe />
         <main>
           <Routes>
             <Route path="/" element={<AboutMe />} exact />
