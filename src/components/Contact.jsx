@@ -28,7 +28,7 @@ const Contact = () => {
           </p>
           <p className="text-lg font-semibold gray-300 py-4">
             Submit the form below or email me directly at
-            huff.n.ashlee@gmail.com
+            ashleehuff.us@gmail.com
           </p>
         </div>
         <input

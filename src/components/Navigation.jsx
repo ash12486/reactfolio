@@ -47,7 +47,7 @@ const Navigation = () => {
               Contact
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/resume"
               className={`${
@@ -58,7 +58,7 @@ const Navigation = () => {
             >
               Resume
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
 
@@ -112,7 +112,7 @@ const Navigation = () => {
             Contact
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        {/* <li className="py-6 text-4xl">
           <Link
             to="/resume"
             onClick={handleMobileClick} // Add this line
@@ -122,7 +122,7 @@ const Navigation = () => {
           >
             Resume
           </Link>
-        </li>
+        </li> */}
       </ul>
     </>
   );
