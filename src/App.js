@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/reactfolio" element={<Navigate to="/aboutme" />} />
+          <Route path="/" element={<Navigate to="/aboutme" replace />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
